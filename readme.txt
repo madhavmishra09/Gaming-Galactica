@@ -1,4 +1,4 @@
-# Landing Page Project
+# Gaming Galactica Project
 
 ## Project Overview
 This project is in its initial stages and aims to develop a dynamic and interactive landing page with animations similar to those seen on popular websites. The project will evolve to include functionality for user account management and a basic gaming platform.
