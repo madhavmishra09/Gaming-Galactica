@@ -25,7 +25,8 @@ body{
     flex-direction: column;     
     justify-content: center;
     align-items: center;
-    margin: 2rem;
+    max-width: 500px;
+    margin: 2rem auto;
     padding: 2rem;
     border: 1px solid #e9ecef;
     border-radius: 10px;
