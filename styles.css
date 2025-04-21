@@ -44,11 +44,26 @@ body{
     border: 1px solid #e9ecef;
     border-radius: 10px;
 }
-#submit:hover{
+#submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #495057;
+    color: #e9ecef;
+    border: 1px solid #e9ecef;
+    border-radius: 10px;
+    padding: 0.8rem 1.5rem; /* Adjusted padding for a slightly smaller button */
+    font-size: 1.2rem; /* Reduced font size for better alignment with other content */
+    transition: 0.3s;
+}
+
+#submit:hover {
     background-color: #e9ecef;
     color: #495057;
     cursor: pointer;
-    transition: 0.5s;
+    transform: scale(1.1);
 }
 input{
     background-color: #343a40;
