@@ -1,4 +1,4 @@
-const form=document.querySelector('.login-form');
+const form=document.querySelector('.login-form form');
 const accountID=document.querySelector('#accountid');
 const firstname=document.querySelector('#fname');
 const lastname=document.querySelector('#lname');
@@ -13,6 +13,12 @@ form.addEventListener('submit',(event)=>{
     }
     alert('Form submitted successfully!');
     form.reset();
+    accountID.value = '';
+    firstname.value = '';
+    lastname.value = '';
+    email.value = '';
+    pass.value = '';
+    con_pass.value = '';
 });
 function validateForm(){
     if(accountID.value.trim() === ''){
