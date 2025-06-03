@@ -7,14 +7,16 @@
     <link rel="shortcut icon" href="images/joystick.png" type="image/x-icon">
     <title>Gaming Galactica</title>
 </head>
-<body class="">
-    <h1 class="">You are just one click away to enjoy!!</h1><br>
-    <form action="" class="">
-        <label for="userID" class="">User ID</label>
-        <input type="text" id="userID" required class="">
-        <label for="pass" class="">Password</label>
-        <input type="password" id="pass" required class="">
-        <button type="submit" class="">Log In</button>
-    </form>
+<body class="bg-sky-500 font-[Montserrat] font-bold text-3xl">
+    <h1 class="text-center">You are just one click away to enjoy!!</h1><br>
+    <div class="flex justify-center items-center min-h-screen">
+        <form action="" class="flex flex-col bg-sky-50 p-8 rounded-lg shadow-lg w-80 gap-4">
+            <label for="userID" class="text-sky-700 text-lg">User ID</label>
+            <input type="text" id="userID" required class="p-2 rounded border border-sky-300 focus:outline-none focus:ring-2 focus:ring-sky-400">
+            <label for="pass" class="text-sky-700 text-lg">Password</label>
+            <input type="password" id="pass" required class="p-2 rounded border border-sky-300 focus:outline-none focus:ring-2 focus:ring-sky-400">
+            <button type="submit" class="mt-4 bg-sky-700 text-white py-2 rounded hover:bg-sky-600 transition">Log In</button>
+        </form>
+    </div>
 </body>
 </html>
